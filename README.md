@@ -1,3 +1,5 @@
-## Discourse Topic Custom Fields
+## Kune Discourse Custom Topics 
 
-This Discourse plugin shows you how to add custom fields to Discourse topics. For more see https://meta.discourse.org/t/184485.
+Adds custom fields to Discourse topics. 
+Modified from https://github.com/pavilionedu/discourse-topic-custom-fields 
+For more see https://meta.discourse.org/t/184485.
