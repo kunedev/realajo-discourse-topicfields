@@ -187,11 +187,11 @@ export default {
        *              support js.
        * references:  app/assets/javascripts/discourse/app/components/topic-list-item.js.es6,
        *              app/assets/javascripts/discourse/app/helpers/raw-plugin-outlet.js.es6
-       */
+       * /
       api.modifyClass('component:topic-list-item', {
         customFieldName: fieldName,
         customFieldValue: alias(`topic.${fieldName}`),
-        
+
         @discourseComputed('customFieldValue')
         showCustomField: (value) => (isDefined(value))
       });
