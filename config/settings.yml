@@ -1,12 +1,12 @@
 plugins:
-  topic_custom_field_enabled:
+  topic_custom_field_enabled: true
     default: true
     client: true
-  topic_custom_field_name:
-    default: 'price'
+  topic_custom_field_name: 'ktopicinfo'
+    default: 'ktopicinfo'
     client: true
-  topic_custom_field_type:
-    default: 'integer'
+  topic_custom_field_type: 'json'
+    default: 'string'
     client: true
     type: enum
     choices:

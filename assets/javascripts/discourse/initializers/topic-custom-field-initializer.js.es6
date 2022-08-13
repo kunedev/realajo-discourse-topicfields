@@ -191,7 +191,7 @@ export default {
       api.modifyClass('component:topic-list-item', {
         customFieldName: fieldName,
         customFieldValue: alias(`topic.${fieldName}`),
-
+        
         @discourseComputed('customFieldValue')
         showCustomField: (value) => (isDefined(value))
       });
