@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-# name: discourse-topic-custom-fields
-# about: Discourse plugin showing how to add custom fields to Discourse topics
+# name: kune-discourse-custom-topics
+# about: Discourse plugin adding basic custom fields to topic. Modified from discourse-topic-custom-fields. 
 # version: 1.0
-# authors: Angus McLeod
+# original authors: Angus McLeod
 # contact email: angus@thepavilion.io
-# url: https://github.com/pavilionedu/discourse-topic-custom-fields
+# url: based on: https://github.com/pavilionedu/discourse-topic-custom-fields
 
 enabled_site_setting :topic_custom_field_enabled
 register_asset 'stylesheets/common.scss'
