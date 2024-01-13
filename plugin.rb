@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: kune-discourse-custom-topics
+# name: realajo-discourse-topicfields
 # about: Discourse plugin adding basic custom fields to topic. Modified from discourse-topic-custom-fields. 
 # version: 1.0
 # original authors: Angus McLeod

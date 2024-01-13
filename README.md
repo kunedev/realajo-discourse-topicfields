@@ -1,4 +1,4 @@
-## Kune Discourse Custom Topics 
+## Realajo Discourse Custom Topics 
 
 Adds custom fields to Discourse topics. <br>
 Modified from https://github.com/pavilionedu/discourse-topic-custom-fields  <br>
