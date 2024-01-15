@@ -3,7 +3,7 @@ plugins:
     default: true
     client: true
   topic_custom_field_name:  
-    default: 'ktopicinfo'
+    default: 'rtopicinfo'
     client: true
   topic_custom_field_type: 
     default: 'json'

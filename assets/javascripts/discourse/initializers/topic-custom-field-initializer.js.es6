@@ -30,6 +30,16 @@ export default {
        *              composer connector template.
        * references:  app/assets/javascripts/discourse/app/components/plugin-outlet.js.es6
        */
+
+
+      /* --------------   THIS IS THE DEPRECATED WAY   -------------- 
+
+
+      NOTE, the registerConnectorClass is deprecated.   I am leaving the commented-out code here in the plugin for reference for now. 
+      I am going to replace these calls within the Realajo Core Theme, not within this plugin. 
+      That is going to mean hard-coding the name as rtopicinfo but that is OK because all of the usage will be hard-coded anyway. 
+
+      
       api.registerConnectorClass('composer-fields', 'composer-topic-custom-field-container', {
         setupComponent(attrs, component) {
           const model = attrs.model;
@@ -54,6 +64,10 @@ export default {
         }
       });
       
+       --------------   END OF DEPRECATED WAY   --------------  */
+
+
+
       /*
        * type:        step
        * number:      5.2
@@ -83,6 +97,16 @@ export default {
        *              topic connector template.
        * references:  app/assets/javascripts/discourse/app/components/plugin-outlet.js.es6
        */
+
+      
+      /* --------------   THIS IS THE DEPRECATED WAY   -------------- 
+
+      NOTE, the registerConnectorClass is deprecated.   I am leaving the commented-out code here in the plugin for reference for now. 
+      I am going to replace these calls within the Realajo Core Theme, not within this plugin. 
+      That is going to mean hard-coding the name as rtopicinfo but that is OK because all of the usage will be hard-coded anyway. 
+
+      
+
       api.registerConnectorClass('edit-topic', 'edit-topic-custom-field-container', {
         setupComponent(attrs, component) {
           const model = attrs.model;
@@ -101,6 +125,11 @@ export default {
         }
       });
       
+      --------------   END OF THE DEPRECATED WAY   --------------   */  
+
+
+
+
       /*
        * type:        step
        * number:      6.2
@@ -143,6 +172,17 @@ export default {
        *              connector template.
        * references:  app/assets/javascripts/discourse/app/components/plugin-outlet.js.es6
        */
+
+
+
+
+      /* --------------   THIS IS THE DEPRECATED WAY   -------------- 
+
+      NOTE, the registerConnectorClass is deprecated.   I am leaving the commented-out code here in the plugin for reference for now. 
+      I am going to replace these calls within the Realajo Core Theme, not within this plugin. 
+      That is going to mean hard-coding the name as rtopicinfo but that is OK because all of the usage will be hard-coded anyway. 
+
+      
       api.registerConnectorClass('topic-title', 'topic-title-custom-field-container', {
         setupComponent(attrs, component) {
           const model = attrs.model;
@@ -166,6 +206,11 @@ export default {
         }
       });
       
+       --------------   END OF THE DEPRECATED WAY   --------------   */
+
+
+
+
       /*
        * type:        step
        * number:      8.2
